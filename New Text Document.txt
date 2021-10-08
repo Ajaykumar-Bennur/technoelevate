@@ -18,5 +18,9 @@ steps
 
 note : 
 if there is some issue with the commit and push command then we have to use 2 more command that is 
-	config --global email ____
+	config --global useremail ____
 	config --global username _______
+
+shortcuts: 
+git add .
+	-- to add all the changed file in to the local repository.
