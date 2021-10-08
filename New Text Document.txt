@@ -1,0 +1,22 @@
+There are 3 types of Version control system
+1 . Local Version control Sysyem
+
+2 . Centralized -- one central repo and other computers are connected to it
+3 . Distributed Vcs -- one central repo and it is copied in the particualar system of working and then creates a copy of the code and is used to develop the code.
+
+git is dvcs which is open source.
+
+
+steps 
+1. Create folder
+2. give a command git init.(it creats a hidden file that indicates that it is local repo)
+3. git add <filename>
+4. git remote add origin <url>
+5. git commit message 
+6. git push origin master.
+
+
+note : 
+if there is some issue with the commit and push command then we have to use 2 more command that is 
+	config --global email ____
+	config --global username _______
